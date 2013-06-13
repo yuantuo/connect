@@ -9,7 +9,7 @@ development:
   database: connect_development
   pool: 5
   username: root
-  password: Fraggle11
+  password: articulate
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -20,7 +20,7 @@ test:
   database: connect_test
   pool: 5
   username: root
-  password: Fraggle11
+  password: articulate
 
 #production:
 #  adapter: sqlite3

@@ -1,3 +1,21 @@
-<h1>Page#home</h1>
-<p>Find me in app/views/page/home.html.erb</p>
-<%= link_to 'sign out', destroy_user_session_path %>
+<div class='container'>
+	
+	<section class="span11">
+	<ul class="nav nav-pills span10">
+	  <li><a href="#">BRADIMAGE</a></li>
+		<li><a href="#">link</a></li>
+  	<li><%= link_to 'sign in', new_user_session_path %></li>
+	</ul>
+	</section>
+
+	<section class="span11">
+		
+		<canvas id = 'canvasArea' class = "span11" height = '200' style = 'border:2px solid black'>
+		</canvas> 
+	</section>
+
+
+	
+</div>
+
+

@@ -1,0 +1,37 @@
+#homeimg {	
+	margin-top: 150px;
+}
+
+#bubble {
+	position:absolute;
+	top:90px;
+	left:100px;
+}
+
+#login {
+	position:absolute;
+	top:180px;
+	right:200px;
+	z-index:3;
+	
+}
+
+#box {
+	position:absolute;
+	top:80px;
+	right:120px;
+	z-index:1;
+    /* These three lines are for transparency in all browsers. */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity:.5;
+	
+}
+
+#box2 {
+	position:absolute;
+	top:80px;
+	right:120px;
+
+}
+

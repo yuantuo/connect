@@ -2,8 +2,7 @@ Connect::Application.routes.draw do
 
   devise_for :users
 
-  # get "page/home"
-
+	match '/main', :to => "page/main", :as => :main
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
